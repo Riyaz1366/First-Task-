@@ -1,0 +1,13 @@
+        HTTP/1.1                                     HTTP/2
+It works on the textual format        It works on the binary protocol.
+
+There is head of line blocking        It allows multiplexing 
+that blocks all the requests          so one TCP connection is required for multiple requests.
+behind it until it doesn’t get
+its all resources.
+
+It uses requests resource             It uses PUSH frame by server 
+Inlining for use getting              that collects all multiple pages 
+multiple pages
+
+It compresses data by itself.         It uses HPACK for data compression.
