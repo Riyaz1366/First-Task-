@@ -1,0 +1,18 @@
+Objects in JavaScript are a fundamental data type that allow us to store and manipulate data in a structured way.
+They are key-value pairs, where the keys are strings or symbols and the values can be any type of data. 
+Objects are often used to represent real-world entities, such as a person, a car, or a bank account.
+
+JavaScript objects are dynamic, meaning that properties can be added or removed at any time.
+They are also reference types, which means that when an object is assigned to a variable,
+the variable holds a reference to the object in memory, rather than a copy of the object.
+
+JavaScript objects are internally represented as a hash table, also known as an associative array. 
+A hash table is a data structure that uses a hash function to map keys to values. When an object property is accessed, 
+the JavaScript engine uses the key to calculate a hash value, which is then used to find the corresponding value in the hash table.
+
+The internal representation of objects in JavaScript can also be represented as a tree-like structure,
+where the object is the root and its properties are the branches. The properties of an object can also be objects,
+creating a nested structure
+
+This allows for a hierarchical organization of data, making it easy to access and manipulate nested properties.
+One important thing to note is that, the order of properties in an object is not guaranteed to be the same as the order in which they were added.
